@@ -3,9 +3,10 @@
 require 'net/http'
 require 'open-uri'
 require 'json'
+require 'pry'
 
 class GetRequester
-    
+
     attr_accessor :url
 
 
@@ -26,5 +27,7 @@ class GetRequester
     end
   
 end
+
+# binding.pry
 
 
